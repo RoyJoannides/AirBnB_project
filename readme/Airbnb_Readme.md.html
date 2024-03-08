@@ -5,7 +5,7 @@
 <h3 class="code-line" data-line-start="6" data-line-end="7"><a id="Data__6"></a>Data 🧱</h3>
 <ul>
 <li class="has-line-data" data-line-start="8" data-line-end="9">The dataset is sourced from Kaggle, with data describing Airbnb listing activity and metrics in New York City, 2019.</li>
-<li class="has-line-data" data-line-start="9" data-line-end="10">This is a public dataset and the original source can be found on this <a href="https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data">website</a>.</li>
+<li class="has-line-data" data-line-start="9" data-line-end="10">This is a public dataset and can be found on this <a href="https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data">website</a>.</li>
 <li class="has-line-data" data-line-start="10" data-line-end="11">The file includes data about hosts, geographical availability, room types and customer review dates</li>
 <li class="has-line-data" data-line-start="11" data-line-end="12">This dataset has about 48895 entries with 16 columns.</li>
 <li class="has-line-data" data-line-start="12" data-line-end="14">The data is a mix between categorical and numeric values.</li>
@@ -15,12 +15,12 @@
 <strong>Weaknesses:</strong> Potential geoethical threat due to the display of sensitive information such as host names. Also, for further analysis, it would have been nice to have additional columns such as a customer review column scored by a likert scale system (for eg: 0-5) for each listing. This would have for example facilitated bivariate analysis on the satisfaction of customers for each listing.</p>
 <h3 class="code-line" data-line-start="18" data-line-end="19"><a id="Questions__Hypotheses__18"></a>Questions ( Hypotheses) 💡</h3>
 <p class="has-line-data" data-line-start="20" data-line-end="30">There are three questions (hypotheses) asked/tested. Each hypothesis was analysed and further used to propose a business opportunity<br>
-<strong>Hypothesis 1:</strong> The neighborhood group significantly influences the price of Airbnb listings<br>
+<strong>Hypothesis 1:</strong> The neighborhood group significantly influences the price and number of Airbnb listings<br>
 <a href="Node.js">Question</a>: Does the neighborhood group significantly influence Airbnb listing prices?<br>
 <a href="Node.js">Conclusion</a>: Neighborhood groups indeed have a notable impact on listing prices. Certain areas command higher prices than others, due to location or demand.<br>
 <strong>Hypothesis 2:</strong> Particular room types are more popular and demand higher prices.<br>
 <a href="Node.js">Question</a>: Are particular room types more popular and demand higher prices?<br>
-<a href="Node.js">Conclusion</a>: Certain room types are more popular, and they often correlate with higher prices. Entire homes/apartments tend to be both popular and pricier. Whereas shared rooms are cheaper and less popular.<br>
+<a href="Node.js">Conclusion</a>: Certain room types are more popular, and they often attract higher prices. Entire homes/apartments tend to be both popular and pricier. Whereas shared rooms are cheaper and less popular.<br>
 <strong>Hypothesis 3:</strong> Having higher listings has a positive correlation with a higher host popularity index (number of reviews)<br>
 <a href="Node.js">Question</a>: Does having higher listings correlate with a higher host popularity index (number of reviews)?<br>
 <a href="Node.js">Conclusion</a>: There is a weak correlation between the number of listings and host’s popularity index. Hosts with higher number of listings do not necessarily have more reviews.</p>
@@ -33,11 +33,11 @@
 </thead>
 <tbody>
 <tr>
-<td>H1: Neighborhoods indeed have a notable impact on listing prices. Certain areas command higher prices than others, potentially due to location or demand.</td>
+<td>H1: Neighborhoods indeed have a notable impact on listing numbers and prices. Certain areas command higher prices than others, potentially due to location or demand.</td>
 <td>(Opportunity for planning authority/ minicipality of NYC): Identify and promote listings in low-performing geographic clusters, focusing marketing efforts and optimizing pricing strategies in these areas to decentralize population growth.</td>
 </tr>
 <tr>
-<td>H2: Certain room types are more popular, and they often correlate with higher prices. Entire homes/apartments tend to be both popular and pricier.</td>
+<td>H2: Certain room types are more popular, and they often attract higher prices. Entire homes/apartments tend to be both popular and pricier.</td>
 <td>(Opportunity for hosts) Identify and promote(invest in building) popular room types to attract more guests and increase overall occupancy + revenue.</td>
 </tr>
 <tr>
@@ -64,8 +64,8 @@
 <h3 class="code-line" data-line-start="52" data-line-end="53"><a id="Conclusions_after_analysis__52"></a>Conclusions after analysis 🏁</h3>
 <p class="has-line-data" data-line-start="53" data-line-end="54">This Airbnb dataset of NYC, 2019 proved to be comprehensive, offering diverse column data for in-depth exploration.</p>
 <p class="has-line-data" data-line-start="55" data-line-end="57">The analysis justified two out of three hypotheses we proposed.<br>
-First, it was proven that, neighborhood groups indeed have a notable impact on listing prices. Certain areas command higher prices than others, potentially due to location or demand. Subsequently, we analysed the relationship between the different room types and prices. The results show that certain room types are more popular, and they often correlate with higher prices. Entire homes/apartments tend to be both popular and pricier. Finally, we analysed if there was a positive correlation between having higher listings and higher host popularity index (number of reviews). Surprisingly, the data showed there was a weak correlation between the number of host listings and host’s popularity index. Hosts with higher number of listings do not necessarily have more reviews.</p>
-<p class="has-line-data" data-line-start="58" data-line-end="59">Drawing from the conclusions of the above hypothesis, One business opportunity for hosts can be to identify and promote popular room types to attract more guests and increase overall occupancy which translates into revenue. Also, for the planning authority or Minicipality of NYC, they can identify and promote listings in low performing geographic clusters (for example the Bronx), focusing marketing efforts and optimizing pricing strategies to decentralize population settlement accross the city. Further, There’s an opportunity to optimize listing promotion strategies to enhance the visibility and popularity of diverse hosts, irrespective of the number of listings. Here, some recommendations are <a href="Node.js">1. Quality Emphasis:</a> Encourage hosts to prioritize the quality of their listings over quantity. <a href="Node.js">2. Targeted marketing:</a> Implement targeted marketing campaigns that cater to hosts with a diverse number of listings. Highlight unique and appealing features of these listings to attract a broader audience(with different income ranges/ preferences).</p>
+First, it was proven that, neighborhood groups indeed have a notable impact on listing numbers and prices. Certain areas command higher prices than others, potentially due to location or demand. Subsequently, we analysed the relationship between the different room types and prices. The results show that certain room types are more popular, and they often attract higher prices. Entire homes/apartments tend to be both popular and pricier. Finally, we analysed if there was a positive correlation between having higher listings and higher host popularity index (number of reviews). Surprisingly, the data showed there was a weak correlation between the number of host listings and host’s popularity index. Hosts with higher number of listings do not necessarily have more reviews.</p>
+<p class="has-line-data" data-line-start="58" data-line-end="59">Drawing from the conclusions of the above hypothesis, One business opportunity for hosts can be to identify and promote popular room types to attract more guests and increase overall occupancy which translates into revenue. Also, for the planning authority or Minicipality of NYC, they can identify and promote listings in low performing geographic clusters (for example the Bronx), focusing marketing efforts and optimizing pricing strategies to decentralize population settlement across the city. Further, There’s an opportunity to optimize listing promotion strategies to enhance the visibility and popularity of diverse hosts, irrespective of the number of listings. Here, some recommendations are <a href="Node.js">1. Quality Emphasis:</a> Encourage hosts to prioritize the quality of their listings over quantity. <a href="Node.js">2. Targeted marketing:</a> Implement targeted marketing campaigns that cater to hosts with a diverse number of listings. Highlight unique and appealing features of these listings to attract a broader audience(with different income ranges/ preferences).</p>
 <p class="has-line-data" data-line-start="60" data-line-end="61">For further analysis, it would have been nice to have additional columns such as a customer review column scored by a likert scale system (for eg: 0-5) for each listing. This would have for example facilitated bivariate analysis on the satisfaction of customers for each listing. Nonetheless, the exploration and analysis revealed interesting relationships between various columns (variables) and proved sufficient to test the proposed hypotheses.</p>
 <h3 class="code-line" data-line-start="62" data-line-end="63"><a id="Further_questions_or_points_for_research__62"></a>Further questions or points for research 💭</h3>
 <p class="has-line-data" data-line-start="63" data-line-end="64">Further exploration could be done on additional aspects such as seasonal pricing trends, the impact of amenities on pricing, and the effectiveness of promotional strategies on host success. More specifically:</p>
@@ -75,8 +75,6 @@ First, it was proven that, neighborhood groups indeed have a notable impact on l
 <li class="has-line-data" data-line-start="66" data-line-end="68">Do hosts with a higher number of listings have different pricing strategies?</li>
 </ul>
 <h3 class="code-line" data-line-start="68" data-line-end="69"><a id="Links__68"></a>Links 🔗</h3>
-<p class="has-line-data" data-line-start="69" data-line-end="73"><a href="https://github.com/RoyJoannides/Roy_project/tree/main/notebook">Jupyter notebook</a><br>
-<a href="https://github.com/RoyJoannides/Roy_project/tree/main/data">Dataset</a><br>
-[Functions]<br>
-[Requirements file]</p>
+<p class="has-line-data" data-line-start="69" data-line-end="71"><a href="https://github.com/RoyJoannides/Roy_project/tree/main/notebook">Jupyter notebook</a><br>
+<a href="https://github.com/RoyJoannides/Roy_project/tree/main/data">Dataset</a></p>
 </body></html>
